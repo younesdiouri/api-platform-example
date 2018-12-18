@@ -7,7 +7,7 @@
   "env": {
     "APP_ENV": "prod",
     "APP_SECRET": "bda1862684b83d8cd81c1a8df5088f60",
-    "CORS_ALLOW_ORIGIN": "^https?://localhost(:[0-9]+)?$"
+    "CORS_ALLOW_ORIGIN": "*"
   },
   "addons": [
     {
