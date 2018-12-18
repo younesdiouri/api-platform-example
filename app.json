@@ -1,0 +1,6 @@
+{
+  "name": "Api-platform example",
+  "description": "Api-platform first deploy",
+  "repository": "https://github.com/younesdiouri/api-platform-example",
+  "keywords": ["api-platform", "symfony", "sample"]
+}
