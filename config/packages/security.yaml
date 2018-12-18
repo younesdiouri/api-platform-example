@@ -26,7 +26,7 @@ security:
                 username_path: email
                 success_handler:          lexik_jwt_authentication.handler.authentication_success
                 failure_handler:          lexik_jwt_authentication.handler.authentication_failure
-            
+
         dev:
             pattern: ^/(_(profiler|wdt)|css|images|js)/
             security: false
@@ -45,4 +45,4 @@ security:
     # Note: Only the *first* access control that matches will be used
     access_control:
     - { path: ^/api/login, roles: IS_AUTHENTICATED_ANONYMOUSLY }
-    - { path: ^/api,       roles: IS_AUTHENTICATED_FULLY }
+    - { path: ^/api/books,       roles: IS_AUTHENTICATED_FULLY }
