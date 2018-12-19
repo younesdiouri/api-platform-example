@@ -70,7 +70,7 @@ class ApiController extends AbstractController
         ]);
     }
     /**
-     * @Route("/", name="", methods={"GET","POST"})
+     * @Route("/private", name="", methods={"GET","POST"})
      */
     public function api(Request $request): JsonResponse
     {
