@@ -21,6 +21,7 @@ use Symfony\Component\Serializer\Serializer;
 use Symfony\Component\Serializer\Encoder\XmlEncoder;
 use Symfony\Component\Serializer\Encoder\JsonEncoder;
 use Symfony\Component\Serializer\Normalizer\ObjectNormalizer;
+
 class ApiController extends AbstractController
 {
     /**
@@ -70,7 +71,7 @@ class ApiController extends AbstractController
         ]);
     }
     /**
-     * @Route("/private", name="", methods={"GET","POST"})
+     * @Route("/api/private", name="", methods={"GET","POST"})
      */
     public function api(Request $request): JsonResponse
     {
